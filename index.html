@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leave Permission System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Leave Permission Form</h1>
+  </header>
+
+  <main>
+    <form id="leaveForm">
+      <label>Name:</label>
+      <input type="text" id="name" required>
+
+      <label>Reason for Leave:</label>
+      <textarea id="reason" required></textarea>
+
+      <label>Days of Leave:</label>
+      <input type="number" id="days" required>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <p id="result"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
